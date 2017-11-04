@@ -1,27 +1,62 @@
-body {
-    font-family: 'Roboto Slab', serif;
-    margin:0px;
-    padding:0px;
-    background-color:#e6f2ff
+html, body {
+    font-family: Roboto Slab, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    text-align:center;
-    color: #ff6666;
+
+.ShowcaseImage {
+    width: 100%;
+    margin-top: 10px;
 }
 
-h2 {
-    text-align:center;
-    color:#ff6666;
+
+footer {
+    margin-top: 10px;
+    background: #343a40!important;
+    color: #fff;
+    clear: both;
+    padding: 20px
 }
 
-ul {
-    padding:0px;
-    margin:0px;
-    text-align:center;
-    margin:auto;
+footer h3 {
+    color: #fff;
 }
 
-li {
+
+.padding {
     padding:5px;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+
+img {
+    width: 100%;
+}
+
+.tekstkleur{
+    color:#dc6200;
+
+}
+section.recept{
+    float: left;
+    width: 100%;
+}
+article.bereidingwijze{
+    width: 100%;
+}
+article.burritofoto{
+    float: right;
+    width: 50%;
+}
+img.burritosbereiding{
+    width: 24%;
+    margin-left: 7px;
+}
+img.imgburritos{
+    padding-right: 25px;
 }

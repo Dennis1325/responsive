@@ -5,49 +5,113 @@
     <link rel="stylesheet" href="../CSSfiles/ReceptenCSS/spaghetti.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 
 <body>
 <div class="wrapper">
-<header>
-    <h1>Recept voor spaghetti</h1>
-</header>
+    <header>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="../img/logoroc.png">
+            </div>
+            <div class="col-md-10">
+                <img src="../img/ingredientenimg995x175.jpg" alt="ingredienten">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+            <a class="navbar-brand" href="../index.html">BierHier</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarLg">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsingNavbarLg">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../Concerten/BierHierO3.html">Concerten</a>
+                    </li>
 
-<h2>Ingredienten</h2>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="../Sport/BierHierO4.html">Sport</a>
 
-<ul>
-    <li>- 300g spaghetti</li>
-    <li>- 1 ui</li>
-    <li>- 4 bospeentjes</li>
-    <li>- 1 stengel bleekselderij</li>
-    <li>- Olijfolie om in te bakken</li>
-    <li>- 2 teentje knoflook</li>
-    <li>- 400g rundergehakt</li>
-    <li>- 70g tomatenpuree</li>
-    <li>- 1 courgette</li>
-    <li>- 400g gepelde tomaten</li>
-    <li>- 1 el balsamicoazijn</li>
-    <li>- 1 bosje basilicum</li>
-    <li>- 50g parmezaanse kaas</li>
-</ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle active" href="http://example.com" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recepten
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="recepten.html"></a>
+                            <hr>
+                            <a class="dropdown-item active" href="burritos.html">Burritos</a>
+                            <a class="dropdown-item" href="stamppot.html">Stamppot</a>
+                            <a class="dropdown-item" href="spaghetti.html">Spaghetti</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=../Contact.html>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="tekstkleur">Recept voor spaghetti</h1>
+    </header>
+    <section class="recept">
+        <article class="ingredienten">
+            <h2 class="tekstkleur">Ingredienten</h2>
+            <article class="spaghettifoto"><img class="imgspaghetti" src="../img/spaghetti%20600x400.jpg" alt="foto van de spaghetti"></article>
+            <ul>
+                <li>- 300g spaghetti</li>
+                <li>- 1 ui</li>
+                <li>- 4 bospeentjes</li>
+                <li>- 1 stengel bleekselderij</li>
+                <li>- Olijfolie om in te bakken</li>
+                <li>- 2 teentje knoflook</li>
+                <li>- 400g rundergehakt</li>
+                <li>- 70g tomatenpuree</li>
+                <li>- 1 courgette</li>
+                <li>- 400g gepelde tomaten</li>
+                <li>- 1 el balsamicoazijn</li>
+                <li>- 1 bosje basilicum</li>
+                <li>- 50g parmezaanse kaas</li>
+            </ul>
+        </article>
+    </section>
+    <article class="bereidingwijze">
+    <h2 class="tekstkleur">Bereidingswijze</h2>
+    <ul>
+        <li>- Breng een pan met water en een beetje zout aan de kook en kook de spaghetti volgens de bereidingswijze op
+            de verpakking.
+        </li>
+        <li>- Pel en snipper de ui.</li>
+        <li>- Schil en snijd de bospeentjes in blokjes.</li>
+        <li>- Verwijder de draden van de bleekselderij en snijd de bleekselderij in blokjes.</li>
+        <li>- Verhit een scheutje olie in een koekenpan en fruit de ui circa 2 minuten.</li>
+        <li>- Voeg de bospeentjes en de bleekselderij toe en bak circa 2 minuten mee.</li>
+        <li>- Pel en snijd de knoflook fijn, voeg toe en bak kort mee.</li>
+        <li>- Voeg het gehakt en tomatenpuree toe en bak in circa 4 minuten gaar.</li>
+        <li>- Snijd de courgettes in blokjes en voeg toe.</li>
+        <li>- Voeg de gepelde tomaten en balsamicoazijn toe. Warm de saus op middelhoog vuur circa 8 minuten door.</li>
+        <li>- Breng de saus op smaak met een beetje zout en versgemalen peper.</li>
+        <li>- Pluk en scheur de blaadjes basilicum en roer door de saus.</li>
+        <li>- Rasp de Parmezaanse kaas.</li>
+    </ul>
+</article>
+    <section class="bereidingspaghetti">
+        <img class="spaghettibereiding" src="../img/spaghettibereiding1.jpg" alt="bereiding1">
+        <img class="spaghettibereiding" src="../img/spaghettibereiding2.jpg" alt="bereiding2">
+        <img class="spaghettibereiding" src="../img/spaghettibereiding3.jpg" alt="bereiding3">
+        <img class="spaghettibereiding" src="../img/spaghettibereiding4.jpg" alt="bereiding4">
+    </section>
 
-<h2>Bereidingswijze</h2>
-
-<ul>
-    <li>- Breng een pan met water en een beetje zout aan de kook en kook de spaghetti volgens de bereidingswijze op de verpakking.</li>
-    <li>- Pel en snipper de ui.</li>
-    <li>- Schil en snijd de bospeentjes in blokjes.</li>
-    <li>- Verwijder de draden van de bleekselderij en snijd de bleekselderij in blokjes.</li>
-    <li>- Verhit een scheutje olie in een koekenpan en fruit de ui circa 2 minuten.</li>
-    <li>- Voeg de bospeentjes en de bleekselderij toe en bak circa 2 minuten mee.</li>
-    <li>- Pel en snijd de knoflook fijn, voeg toe en bak kort mee.</li>
-    <li>- Voeg het gehakt en tomatenpuree toe en bak in circa 4 minuten gaar.</li>
-    <li>- Snijd de courgettes in blokjes en voeg toe.</li>
-    <li>- Voeg de gepelde tomaten en balsamicoazijn toe. Warm de saus op middelhoog vuur circa 8 minuten door.</li>
-    <li>- Breng de saus op smaak met een beetje zout en versgemalen peper.</li>
-    <li>- Pluk en scheur de blaadjes basilicum en roer door de saus.</li>
-    <li>- Rasp de Parmezaanse kaas.</li>
-</ul>
+    <footer>
+        <p>        Copyright &copy; roc-dev.com 2017<br>
+            10/10 IGN
+        </p>
+    </footer>
 </div>
 </body>
 </html>
